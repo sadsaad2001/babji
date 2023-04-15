@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+<div class="header">
+	
+  <h1>Happy Birthday Babaji</h1>
+ </div>
+  
+
+<div class="scrollmenu">
+	<div class="image">
+      <img src="3bdd48ca-bc5e-4fc9-8932-a6c96d09a0b5.JPEG" alt="" style="width:50%" onclick="myFunction(this);">
+      <img src="c13a265e-1518-49ad-bbdd-b9016d960f6b.JPEG" alt="" style="width:50%" onclick="myFunction(this);">
+      <img src="e0da6f80-2107-4603-979e-bd015f563927.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_0114.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_0279.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_0421.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_1048.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_3506.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_3752.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_3949.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_4055.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_4414.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_4615.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_4655.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_4659.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_4661.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_4953.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_4956.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_5231.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_5332.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_5925.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_6768.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_7146.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_7747.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_8208.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_8995.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_9016.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_9095.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_9233.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+      <img src="IMG_9388.JPEG" alt="" style="width:100%" onclick="myFunction(this);">
+    
+    </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
+
+</body>
+</html>
+
+
+
